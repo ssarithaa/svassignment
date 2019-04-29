@@ -8,6 +8,7 @@ import SVassignment.gmailAutomation.BasePage;
 
 public class Emailbody_PF extends BasePage
 {
+	 
 	@FindBy(xpath="//span[@role='link' and text()='Forward']")
 	WebElement fwdBtn;
 	
