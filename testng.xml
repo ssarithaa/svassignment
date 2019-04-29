@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GmailAutomation" >
+
+<listeners>
+<listener class-name="testcases.listeners"/>
+</listeners> 
+  <test name="Gmail">
+    <classes>
+      <class name="testcases.HomePage"/>
+      <class name="testcases.Inbox"/>
+         
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
